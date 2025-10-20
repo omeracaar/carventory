@@ -1,4 +1,9 @@
 package com.omeracar.carventory.enums;
 
-public class CurrencyType {
+import lombok.Data;
+
+
+public enum CurrencyType {
+
+    TL , USD
 }
