@@ -14,6 +14,8 @@ public enum MessageType {
     REFRESH_TOKEN_NOT_FOUND("1008","refresh token bulunamadi"),
     REFRESH_TOKEN_IS_EXPIRED("1009","refresh token expired"),
     CURRENCY_RATES_IS_OCCURED("1010","doviz kuru alinamadi"),
+    CUSTOMER_AMOUNT_IS_NOT_ENOUGH("1011","müşterinin parası yeterli degil"),
+    CAR_STATUS_IS_ALREADY_SALED("1012","araba satılmıştır"),
     GENERAL_EXCEPTION("9999","genel bir hata oluştu");
 
     private String code;
